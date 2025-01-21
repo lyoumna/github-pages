@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offres Nutritionnelles</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        .offer {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .offer h2 {
+            color: #4CAF50;
+        }
+        .offer p {
+            margin: 10px 0;
+        }
+        .offer button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .offer button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Offres Nutritionnelles</h1>
+    <p>Des solutions pour une alimentation équilibrée et adaptée à vos besoins.</p>
+</header>
+
+<div class="container">
+    <!-- Offre 1 -->
+    <div class="offer">
+        <h2>Plan personnalisé</h2>
+        <p>Adapté à vos objectifs : perte de poids, gain musculaire, alimentation végétarienne, et plus encore.</p>
+        <p><strong>Tarif : 30€</strong> pour un plan de 2 semaines.</p>
+        <button onclick="window.location.href='plan-personnalise.html'">En savoir plus / Commander</button>
+    </div>
+
+    <!-- Offre 2 -->
+    <div class="offer">
+        <h2>Kits repas équilibrés</h2>
+        <p>Des ingrédients prêts à cuisiner pour préparer facilement 3 repas équilibrés.</p>
+        <p><strong>Tarif : 25€/kit</strong> pour 3 repas.</p>
+        <button onclick="window.location.href='kits-repas.html'">Découvrir les kits / Acheter</button>
+    </div>
+</div>
+
+<footer>
+    <p>© 2025 Votre Projet Nutrition. Tous droits réservés.</p>
+</footer>
+
+</body>
+</html>
